@@ -1,3 +1,5 @@
+A List that places items of another list as a divider between each item.
+
 ## Features
 
 1. Support for both SliverList and ListView
