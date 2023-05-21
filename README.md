@@ -7,7 +7,7 @@ A List that places items of another list as a divider between each item.
 
 ## Usage
 
-###SliverDividerList
+### SliverDividerList
 
 ```dart
 SliverDividerList(mainListItemBuilder: (BuildContext context, int index) {
@@ -21,7 +21,7 @@ SliverDividerList(mainListItemBuilder: (BuildContext context, int index) {
 ),
 ```
 
-###DividerListView
+### DividerListView
 
 ```dart
 DividerListView(mainListItemBuilder: (BuildContext context, int index) {
