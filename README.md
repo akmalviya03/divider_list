@@ -7,8 +7,24 @@ A List that places items of another list as a divider between each item.
 
 ## Usage
 
+###SliverDividerList
+
 ```dart
- DividerListView(mainListItemBuilder: (BuildContext context, int index) {
+SliverDividerList(mainListItemBuilder: (BuildContext context, int index) {
+   return mainList[index];
+ },
+ dividerListItemBuilder: (BuildContext context, int index) {
+   return dividerList[index];
+ },
+ mainListItemLength: mainList.length,
+ dividerListItemLength: dividerList.length,
+),
+```
+
+###DividerListView
+
+```dart
+DividerListView(mainListItemBuilder: (BuildContext context, int index) {
    return mainList[index];
  },
  dividerListItemBuilder: (BuildContext context, int index) {
