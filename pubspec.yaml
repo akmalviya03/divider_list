@@ -1,6 +1,6 @@
 name: divider_list
 description: 'A List that places items of another list as a divider between each item.'
-version: 0.0.1
+version: 0.0.2
 repository: https://github.com/akmalviya03/divider_list
 
 environment:
