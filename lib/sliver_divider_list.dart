@@ -1,8 +1,10 @@
 part of 'divider_list.dart';
 
+/// A sliver that places multiple box children and separators in a linear array along the main
+/// axis.
 class SliverDividerList extends AbstractDividerWidget {
   const SliverDividerList({
-    Key? super.key,
+    super.key,
     required super.mainListItemBuilder,
     required super.dividerListItemBuilder,
     super.itemIfDividerListLengthIsShort,
