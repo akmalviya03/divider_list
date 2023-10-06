@@ -50,7 +50,7 @@ abstract class AbstractDividerWidget extends StatelessWidget {
       if (itemIndex < dividerListItemLength) {
         return dividerListItemBuilder(context, itemIndex);
       } else {
-        return itemIfMainListLengthIsShort ?? const Divider();
+        return itemIfDividerListLengthIsShort ?? const Divider();
       }
     }
   }
