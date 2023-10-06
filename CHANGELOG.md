@@ -1,4 +1,4 @@
-## 0.0.3
+## 0.0.4
 - Fixed issue divider item not rendering
 ## 0.0.3
 - Added documentation
